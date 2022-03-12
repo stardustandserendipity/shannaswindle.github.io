@@ -825,7 +825,7 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .parallax-sub-title{  display: block; font-size: 22px; font-weight: 600; letter-spacing: 4px; line-height: 30px; text-transform: uppercase; }
 .parallax-number { border: 2px solid #000; color: #000; display: inline-block; font-family: "Oswald",sans-serif; font-size: 20px; font-weight: 400; margin:150px 0 60px 0; padding: 9px 0; width:47px; text-align: center; letter-spacing: -2px }
 .fix-background{ position: relative; background-size: cover !important; overflow: hidden; background-position: center center; background-repeat: no-repeat !important; background-attachment: fixed !important}
-.cover-background{ position: relative; background-size: cover !important; overflow: hidden; background-position: center center; background-repeat: no-repeat !important;}
+.cover-background{ position: relative; background-size: cover !important; overflow: hidden; background-position: center right; background-repeat: no-repeat !important;}
 .background-size-inherit {background-size: inherit !important}
 .blog-blockquote { padding:100px}
 .background-attachment-inherit {background-attachment: inherit !important}
