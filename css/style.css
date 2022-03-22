@@ -427,8 +427,8 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .shrink-nav .container { height: 60px; }
 .shrink-nav { background-color:#FFF; }
 .sticky-nav{ position: fixed; top: 0px; display: inline-table;}
-.logo { max-width: 200px; }
-.logo-style-2 { max-width: 200px; }
+.logo { max-width: 350px; }
+.logo-style-2 { max-width: 350px; }
 .logo-style-3 { max-width: 210px; }
 .sticky-nav .logo-light { height: 55px; vertical-align: middle; display: table-cell;}
 .shrink-nav .logo-light { opacity: 0; display: none}
@@ -643,8 +643,8 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .testimonial p{ font-size:16px; margin:50px 0 40px; line-height:24px}
 .testimonial .name{ font-size:11px; display:block; margin:0 0 10px 0; width:100%; font-weight:400; text-transform: uppercase; letter-spacing: 2px; color: #737373}
 
-.testimonial-style2 p{ font-size:13px; margin:30px 0 20px; line-height:22px; color: #828282}
-.testimonial-style2 .name{ font-size:11px; display:block; width:100%; font-weight:600; text-transform: uppercase; letter-spacing: 2px; color: #828282}
+.testimonial-style2 p{ font-size:16px; margin:30px 0 20px; line-height:22px; color: #828282}
+.testimonial-style2 .name{ font-size:13px; display:block; width:100%; font-weight:600; text-transform: uppercase; letter-spacing: 2px; color: #828282}
 .testimonial-style2 img { border-radius: 50%; max-width: 120px}
 
 .tab-content > .tab-pane .top-icon { display:block;}
