@@ -43,7 +43,7 @@ html, body {
     padding: 0;
     position: fixed;
     text-indent: 2.5em;
-    width: 40px;
+    width: 25px;
     z-index: 1000;
     border: 1px solid #ef824c !important;
     right: 0;
@@ -57,7 +57,7 @@ html, body {
     position: absolute;
     right: 0.5em;
     top: 0.5em;
-    width: 40px;
+    width: 25px;
 }
 .menu-button-orange:hover {
     opacity: 0.6;
