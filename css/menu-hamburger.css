@@ -50,7 +50,7 @@ html, body {
     top: 0px;
 }  
 .menu-button-orange::before {
-    background: rgba(0, 0, 0, 0) url("../images/menu.svg.png") repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url("../images/menu.svg") repeat scroll center center;
     bottom: 0.5em;
     content: "";
     left: 0.5em;
