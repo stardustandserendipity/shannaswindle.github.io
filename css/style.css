@@ -125,7 +125,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .text-small { font-size:11px !important; line-height:15px !important;}
 .text-med{ font-size:14px !important; line-height:26px !important;}
 .text-large { font-size: 15px !important; text-transform: uppercase; line-height: 24px !important; letter-spacing: 2px !important;}
-.text-extra-large { font-size: 16px !important; line-height: 28px !important; font-weight: 100; }
+.text-extra-large { font-size: 16px !important; line-height: 28px !important; font-weight: 300; }
 .text-extra-large strong { letter-spacing: 3px}
 .text-extra-large-normal { font-weight: normal !important;}
 .title-small{ font-size:20px !important; line-height:30px !important;}
@@ -137,7 +137,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .white-text{ color:#FFF !important} 
 .magenta-text{ color:#d94378 !important}
 .orange-text{ color:#ff513b !important}
-.orange-light-text{ color:#ef824c !important}
+.orange-light-text{ color:#db5614 !important}
 .deep-red-text{ color:#e75e50 !important}
 .black-text{ color:#000 !important}
 .yellow-text{ color:#e6af2a !important}
