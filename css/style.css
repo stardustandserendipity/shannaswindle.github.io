@@ -137,7 +137,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .white-text{ color:#FFF !important} 
 .magenta-text{ color:#d94378 !important}
 .orange-text{ color:#ff513b !important}
-.orange-light-text{ color:#ef824c text-shadow: 2px 2px #ff0000; !important}
+.orange-light-text{ color:#ef824c; text-shadow: 2px 2px #ff0000; !important}
 .deep-red-text{ color:#e75e50 !important}
 .black-text{ color:#000 !important}
 .yellow-text{ color:#e6af2a !important}
