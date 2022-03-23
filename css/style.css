@@ -428,8 +428,8 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .shrink-nav { background-color:#FFF; }
 .sticky-nav{ position: fixed; top: 0px; display: inline-table;}
 .logo { max-width: 350px; }
-.logo-style-2 { max-width: 350px; }
-.logo-style-3 { max-width: 210px; }
+.logo-style-2 { max-width: 250px; }
+.logo-style-3 { max-width: 100px; }
 .sticky-nav .logo-light { height: 55px; vertical-align: middle; display: table-cell;}
 .shrink-nav .logo-light { opacity: 0; display: none}
 .sticky-nav .logo-dark {opacity: 0; display: none}
@@ -2131,7 +2131,6 @@ thead th.first { padding-left: 0 !important; }
 
 /* onepage agency option 2 */
 .short-history .fill {top: 0;}
-.slider-home ol.carousel-indicators {display: none;} 
 .sub-headline {color: #fff; font-size: 17px; font-weight: 600; background-color: #191919; padding: 30px 35px; width: auto; bottom:0px; position: absolute; left: -230px; letter-spacing: 0.30px; margin: 0 auto;-ms-transform: rotate(-90.3deg); -webkit-transform: rotate(-90.3deg); transform: rotate(-90.3deg);}
 .our-services ul {margin: 0; padding: 0 0 0 40px;}
 .our-services ul li {padding-left: 90px;} 
@@ -2141,10 +2140,10 @@ thead th.first { padding-left: 0 !important; }
 .our-process .icon {display: inline-block; min-height: 85px; margin-bottom: 20px;}
 .our-process .icon img {display: inline-block; vertical-align: middle; margin-right: 20px;}
 .our-process .icon .title {line-height: 23px !important;}
-.our-process .underline-bg {background-color: #ef824c; position: absolute; left: 0;} 
+.our-process .underline-bg {background-color: #db5614; position: absolute; left: 0;} 
 .our-team-agency-social div {float: left}
 .our-team-agency-social {cursor: auto}
-.our-team-agency-social div span {font-size: 30px; color: #ef824c; margin: 0 15px; vertical-align: bottom;}
+.our-team-agency-social div span {font-size: 30px; color: #db5614; margin: 0 15px; vertical-align: bottom;}
 .our-team-agency-social a i { color: #191919;}
 .bottom-arrow-pagination .owl-pagination {display: none;}
 .bottom-arrow-pagination .owl-controls .owl-prev {display: block;}
