@@ -876,57 +876,290 @@ footer ul.list-inline li:first-child {padding-left: 6px}
     Portfolio - ajax
 ====================================== */
 
+
 /*  single #1 */
-.half-project-img{ height: 550px; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
-.project-img-gallery { padding: 15px 0}
-.spend-year{ border-right: 1px solid #e5e5e5; float: left; font-size: 30px; font-weight: 400; letter-spacing: 2px; line-height: 47px; min-height: 110px; text-align: center; width: 50%; }
-.spend-year span{ font-weight: 400; font-size: 12px; display:block; text-transform: uppercase; line-height: 0; margin-top: 40px; }
-.spend-time { border-right: 1px solid #e5e5e5; float: left; font-size: 30px; font-weight: 400; letter-spacing: 2px; line-height: 47px; min-height: 110px; text-align: center; width: 50%; }
-.spend-time span { font-weight: 400; font-size: 12px; display:block; text-transform: uppercase; line-height: 0; margin-top: 40px; }
-.related-projects-list .masonry-items li {padding:5px}
-.project-header-text { margin-top: 30%; position: relative; text-align: center; width: 100%; z-index: 1; }
-.project-subtitle { font-family: "Oswald",sans-serif; font-size: 14px; font-weight: 100; letter-spacing: 8px; line-height: 65px; text-transform: uppercase; }
-.project-title { display: block; font-size: 25px; font-weight: 600; letter-spacing: 7px; text-transform: uppercase;  }
+.half-project-img {
+    height: 550px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.project-img-gallery {
+    padding: 15px 0
+}
+
+.spend-year {
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 47px;
+    min-height: 110px;
+    text-align: center;
+    width: 50%;
+}
+
+.spend-year span {
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-top: 40px;
+}
+
+.spend-time {
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 47px;
+    min-height: 110px;
+    text-align: center;
+    width: 50%;
+}
+
+.spend-time span {
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-top: 40px;
+}
+
+.related-projects-list .masonry-items li {
+    padding: 5px
+}
+
+.project-header-text {
+    margin-top: 30%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.project-subtitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 8px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.project-title {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
 
 /*  single #2 */
-.half-project-img-slider {min-height: 700px;}
+.half-project-img-slider {
+    min-height: 700px;
+}
 
 /*  single #3 */
-.half-project-small-img{ min-height: 300px; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
-.half-project-small-img .project-header-text { margin-top: 10.5%}
-.project-details ul {}
-.project-details ul li { border-bottom: 1px solid #e5e5e5; padding: 8px 0; text-transform: uppercase}
-.project-details ul li:last-child{ border-bottom: none}
+.half-project-small-img {
+    min-height: 300px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.half-project-small-img .project-header-text {
+    margin-top: 10.5%
+}
+
+.project-details ul {
+}
+
+.project-details ul li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 0;
+    text-transform: uppercase
+}
+
+.project-details ul li:last-child {
+    border-bottom: none
+}
 
 /*  single #5 */
-.work-background-slider-text { position: absolute; width: 50%; right: 0; top: 0; height: 100%; background: rgba(255,255,255,0.9); padding: 150px 120px}
-.work-background-slider-year { position: absolute; bottom: 0; right: 0}
-.work-background-slider-main .spend-year { line-height: 55px; width: auto;}
-.work-background-slider-main .spend-year span { margin-top: auto}
+.work-background-slider-text {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 150px 120px
+}
+
+.work-background-slider-year {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.work-background-slider-main .spend-year {
+    line-height: 55px;
+    width: auto;
+}
+
+.work-background-slider-main .spend-year span {
+    margin-top: auto
+}
 
 /* next - previous project */
 
 /* next - previous style #1 */
-.next-previous-project .next-project a { position: fixed; right: -133px; top: 49%; z-index: 5; background-color: #585858 }
-.next-previous-project .next-project a img, .previous-project a img { max-height: 83px; }
-.next-previous-project .next-project a span { color: #000; font-weight: 400; letter-spacing: 2px; position: absolute; text-transform: uppercase; z-index: 2; font-size: 9px; top:83px; padding-top: 10px; display: block; width: 100%; left: 32px  }
-.next-previous-project .next-project a img:nth-child(3), .previous-project a img:nth-child(2) {opacity: 1}
-.next-previous-project .next-project a:hover { right: 0; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; }
-.next-previous-project .previous-project a { position: fixed; left: -133px; top: 49%; z-index: 5; opacity: 1 }
-.next-previous-project .previous-project a:hover { left: 0; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; }
-.next-previous-project .previous-project a span { color: #000; font-weight: 400; letter-spacing: 2px; position: absolute; text-transform: uppercase; z-index: 2; font-size: 9px; top:83px; padding-top: 10px; display: block; width: 100%; left: 20px  }
-.previous-project-bottom, .next-project-bottom{ top: 79.5% !important}
+.next-previous-project .next-project a {
+    position: fixed;
+    right: -133px;
+    top: 49%;
+    z-index: 5;
+    background-color: #585858
+}
+
+.next-previous-project .next-project a img, .previous-project a img {
+    max-height: 83px;
+}
+
+.next-previous-project .next-project a span {
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 9px;
+    top: 83px;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    left: 32px
+}
+
+.next-previous-project .next-project a img:nth-child(3), .previous-project a img:nth-child(2) {
+    opacity: 1
+}
+
+.next-previous-project .next-project a:hover {
+    right: 0;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.next-previous-project .previous-project a {
+    position: fixed;
+    left: -133px;
+    top: 49%;
+    z-index: 5;
+    opacity: 1
+}
+
+.next-previous-project .previous-project a:hover {
+    left: 0;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.next-previous-project .previous-project a span {
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 9px;
+    top: 83px;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    left: 20px
+}
+
+.previous-project-bottom, .next-project-bottom {
+    top: 79.5% !important
+}
 
 /* next - previous style #2 */
-.next-previous-project-style2 a { width: 33.33%; display: inline-block; text-align: center; padding:50px 0; letter-spacing: 4px; font-size:11px; border-top:1px solid #e5e5e5; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; }
-.next-previous-project-style2 a span {padding-left: 0px; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; }
-.next-previous-project-style2 a i { font-size:14px; color: #000; margin: 0 7px; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s;}
-.next-previous-project-style2 a:hover { background-color: #000; color: #fff; border-top:1px solid #000}
-.next-previous-project-style2 a:hover i { color: #fff}
-.next-previous-project-style2 .back-project span { text-indent: -9999px; float: left}
-.next-previous-project-style2 a.next-project:hover span{  padding-left: 45px; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s;}
-.next-previous-project-style2 a.previous-project:hover span { padding-right: 45px; transition-duration: .3s; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s;}
+.next-previous-project-style2 a {
+    width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0;
+    letter-spacing: 4px;
+    font-size: 11px;
+    border-top: 1px solid #e5e5e5;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
 
+.next-previous-project-style2 a span {
+    padding-left: 0px;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.next-previous-project-style2 a i {
+    font-size: 14px;
+    color: #000;
+    margin: 0 7px;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.next-previous-project-style2 a:hover {
+    background-color: #000;
+    color: #fff;
+    border-top: 1px solid #000
+}
+
+.next-previous-project-style2 a:hover i {
+    color: #fff
+}
+
+.next-previous-project-style2 .back-project span {
+    text-indent: -9999px;
+    float: left
+}
+
+.next-previous-project-style2 a.next-project:hover span {
+    padding-left: 45px;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.next-previous-project-style2 a.previous-project:hover span {
+    padding-right: 45px;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
 /* ===================================
     Portfolio - multi pages
 ====================================== */
