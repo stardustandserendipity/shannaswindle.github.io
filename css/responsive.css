@@ -431,7 +431,7 @@
     .sm-width-100 { width:100% !important}
 
     /*  features    */
-    .features-section.col-md-12.col-sm-6 { padding: 0 2% !important; }
+    .features-section.col-md-12.col-sm-6 { padding: 0 8% !important; }
     #features .section-title { padding: 0 0 90px 0; }
     .features-section h5 { line-height: 18px; }
     .col-sm-12:last-child .features-section:first-child { margin-bottom: 0; }
