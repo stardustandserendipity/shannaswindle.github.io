@@ -782,7 +782,7 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .scroll-to-down { cursor:url("../images/arrow-down.png"), pointer;}
 .scroll-to-down-white { cursor:url("../images/arrow-down-white.png"), pointer;}
 .background-slider-text { position: absolute; width: 100%}
-#owl-demo-background .owl-item  { cursor: default !important}
+
 
 /* ===================================
     Slider and parallax typography
