@@ -525,7 +525,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .full-width-pull-menu .menu-button {margin:0}
 .show-menu .full-width-pull-menu .menu-wrap {opacity: 1; display: block; top: 0; }
 .full-width-pull-menu .menu-wrap {width: 100%; opacity: 0; display: none; left: 0; top:-50px; height: 100%; overflow: auto}
-.full-width-pull-menu .close-button {height: 64px; width: 64px; background: transparent;}
+.full-width-pull-menu .close-button {height: 64px; width: 64px; background: transparent; float: right;}
 .full-width-pull-menu .close-button::before, .full-width-pull-menu .close-button::after {background: #000;}
 .full-width-pull-menu .menu-wrap { background: rgba(255,255,255,1)}
 .full-width-pull-menu .pull-menu .navbar-nav {padding:0 0 100px 0}
