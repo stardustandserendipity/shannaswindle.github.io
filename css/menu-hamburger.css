@@ -17,7 +17,7 @@ html, body {
     z-index: 1000;
     border: 1px solid #ef824c !important;
     right: 0;
-    top: 20px;
+    top: 10px;
 }  
 .menu-button-orange::before {
     background: rgba(0, 0, 0, 0) url("../images/menu.svg") repeat scroll center center;
