@@ -455,42 +455,12 @@
                             </div>
                             <div class="col-md-12 col-sm-12 no-padding">
                                 <form id="cont-form" method="post" action="mail.php">
-<fieldset>
-<legend>Send me a message</legend>
-<ol>
-    <li>
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
-    </li>
-    <li>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="example@domain.com" required>
-    </li>
-    <li>
-        <label for="phone">Phone</label>
-        <input id="phone" name="phone" type="tel" placeholder="Eg. 07500000000" required>
-    </li>
-    <li>
-        <label for="subject">Subject</label>
-        <input id="subject" name="subject" type="text" placeholder="What the message is about" required>
-    </li>
+<form method="post" action="subscriberform.php">
 
+<textarea name="message"></textarea>
 
-      <li>
-    <label for="human">What is 2 + 2 ?</label>
-    <input id="human" name="human" type="number" placeholder="Please insert answer" required>
-    </li>
+<input type="submit">
 
-    <li>
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Insert your message or question here" rows="10" cols="50">
-    </textarea>
-    </li>
-    </ol>
-</fieldset>
-<fieldset>
-    <input class="button" id="submit" name="submit" type="submit" value="Send it!">
-</fieldset>
 </form>
                                 <div class="col-md-12 col-sm-12 no-padding"><span class="required">*Please complete all fields</span></div>
                                 <div class="col-md-12 col-sm-12 no-padding"><input id="contact-us-button" name="send message" type="button" value="send message" action="mail.php" class="btn btn-black no-margin-bottom no-margin-lr"></div>
