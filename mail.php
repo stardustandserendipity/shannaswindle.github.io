@@ -1,26 +1,41 @@
 <?php
-$name = $_POST['name']; //'name' has to be the same as the name value on the form input element
-$email = $_POST['email'];
-$message = $_POST['message'];
-$human = $_POST['human'];
-$from = $_POST['email'];
-$to = 'shannaswindle@gmail.com'; //set to the default email address
-$subject = $_POST['subject'];
-$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
-$headers = "From: $email" . "\r\n" .
-"Reply-To: $email" . "\r\n" .
-"X-Mailer: PHP/" . phpversion();
+    // Replace this with your own email address
+    $to="sswin501@gmail.com";
 
-if(isset($_POST['submit']) && ($_POST['human']) == '4') {               
-mail ($to, $subject, $body, $headers);  //mail sends it to the SMTP server side which sends the email
-    echo "<p>Your message has been sent!</p>";
-} 
+    // Extract form contents
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $website = $_POST['website'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-else { 
-    echo "<p>Something went wrong, go back and try again!</p>"; 
-} 
-if (!isset($_POST['submit']) && ($_POST['human']) != '4') {
-echo "<p>You answered the anti-spam question incorrectly!</p>";
-}
+    // Validate email address
+    function valid_email($str) {
+        return ( ! preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
+    }
+
+    // Return errors if present
+    $errors = "";
+
+    if($name =='') { $errors .= "name,"; }
+    if(valid_email($email)==FALSE) { $errors .= "email,"; }
+    if($message =='') { $errors .= "message,"; }
+
+    // Send email
+    if($errors =='') {
+
+        $headers =  'From: FluidApp <no-reply@fluidapp.com>'. "\r\n" .
+                    'Reply-To: '.$email.'' . "\r\n" .
+                    'X-Mailer: PHP/' . phpversion();
+        $email_subject = "Website Contact Form: $email";
+        $message="Name: $name \n\nEmail: $email \n\nWebsite: $website \n\nSubject: $subject \n\nMessage:\n\n $message";
+
+        mail($to, $email_subject, $message, $headers);
+        echo "true";
+
+    } else {
+        echo $errors;
+    }
+
 ?>
